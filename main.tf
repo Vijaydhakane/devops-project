@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "webserver" {
   ami           = "ami-0a716d3f3b16d290c"
   instance_type = "t3.micro"
-  key_name      = "key.pem"
+  key_name      = "large.pem"
 
   tags = {
     Name = "WebServer"
