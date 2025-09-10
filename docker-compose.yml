@@ -7,9 +7,3 @@ services:
     ports:
       - "8081:80"
 
-  web2:
-    build:
-      context: .
-      dockerfile: Dockerfile-app2
-    ports:
-      - "8082:80"
