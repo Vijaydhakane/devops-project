@@ -3,13 +3,13 @@ services:
   web1:
     build:
       context: .
-      dockerfile: Dockerfile-app1
+      dockerfile: Dockerfile
     ports:
       - "8081:80"
 
   web2:
     build:
       context: .
-      dockerfile: Dockerfile-app2
+      dockerfile: Dockerfile
     ports:
       - "8082:80"
